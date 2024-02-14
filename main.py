@@ -84,4 +84,5 @@ for epoch in range(0, 75):
     train(epoch)
     test_abnormal(epoch)
 
-torch.save('model-anomaly.pt',model)
+# torch.save('model-anomaly.pt',model)
+ torch.save(model,'model-anomaly.pt')
